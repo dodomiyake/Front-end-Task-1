@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #f72585, #b5179e);
+}
+
+.wrapper {
+    max-width: 700px;
+    background: white;
+    padding: 25px 30px;
+    border-radius: 10px;
+}
+
+.wrapper h2 {
+    font-size: 30px;
+    font-weight: 800;
+    position: relative;
+}
+
+.wrapper h2::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: linear-gradient(135deg, #f72585, #b5179e);
+}
+
+.wrapper form h4 {
+    margin: 8px 0;
+}
+
+form {
+    margin: 10px 0;
+}
+
+input.name {
+    width: 95%;
+    height: 25px;
+    margin: 0 0 10px 0;
+    padding-left: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+input.dob {
+    height: 25px;
+    padding-left: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+input[placeholder="Card CVC"] {
+    height: 25px;
+    padding-left: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.radio {
+    margin-bottom: 10px;
+}
+
+select {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+button {
+    font-size: 15px;
+    width: 30%;
+    margin-top: 10px;
+    background: #b5179e;
+    border: none;
+    padding: 8px 5px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
